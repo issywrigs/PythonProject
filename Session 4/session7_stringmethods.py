@@ -6,3 +6,8 @@ print("HELLO".casefold())
 print("hello".center(50))
 print("hello".center(50, "*"))
 
+
+print("banananananananana". count("ana"))
+sdaWRREQ3
+Ç+
+´_

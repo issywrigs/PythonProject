@@ -7,4 +7,3 @@ print(s[5:]) # prints from the 6th character to the end
 print(s[::]) # prints the whole thing
 print(s[::2]) #prints every other character
 print(s[::-1]) #reverses
-
