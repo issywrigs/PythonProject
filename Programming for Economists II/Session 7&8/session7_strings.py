@@ -1,8 +1,14 @@
 #A string is a collection of any characters contained in double or single quotations
+#strings are IMMUTABLE= you can't change them
 #It is non-scalar, we can get pieces out of it
 #We use square brackets, and the indentation starts with zero
 #indexing returns another string. It must be an integer less than the string length.
 #You can assign a string to a variable
+
+#You can't chnage strings but you can construct an altered copy:
+s = "Cat"
+s2 = "R" + s[1:] #s2 = Rat, creates a copy instead of changing original
+
 s1="banana"
 s2='banana'
 print(s1,s2)
