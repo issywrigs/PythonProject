@@ -28,3 +28,9 @@ while True:
         print("Can not divide by zero")
         continue
     print("The division result of", num, "and", num2, "is", num/num2)
+
+#Unknown number of iterations
+#Can end via break
+#Can start from the beginning via continue
+#Can use a counter, but it needs to be initialized first and incremented/decremented inside the loop
+#Can not always be re-written with a for statement
