@@ -1,3 +1,12 @@
+#functions help us understand entire programs
+#they provide Modularity (break it into smaller problems), Abstraction, Readability, Reusability of code
+#function = reusable piece of code
+
+#1st define the function: give it a name, define a set of parameters and then provide the sequence of operations for that function
+#function won't run unless called
+#functions can have a doc string, telling the user what the function does
+#Once defined, you “call” the function as many times as you want for the function to produce its effects
+
 def greet():
     """
     Simple function that just prints hello
@@ -38,5 +47,7 @@ def bondise_name(first_name= "James", last_name= "Bond"):
 
 print(bondise_name("John", "Doe"))
 bond_greet(bondise_name(first_name="John",last_name="Doe"))
+
+
 
 
