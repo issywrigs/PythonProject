@@ -1,3 +1,13 @@
+#Opening a file tells the operating system we want to use that file
+#so the operating system locates the file,makes sure it exists and gets it ready for us.
+#we use the built in function open().
+#The first parameter is the filename (path included)
+#second parameter is the “mode”.
+#The modes are: r – read (default), w – write, x – exclusive creation, a – append, b – binary, t – text (default), + – update (read + write)
+#result of the open() is assigned to a variable, called file descriptor
+#to avoid errors, must use try/ except
+
+
 fp=open("text.txt","r") # r 1 by default, so not really needed
 print(fp.read()) # prints the entire content of the file
 fp.close() # good practice to close the file
