@@ -5,7 +5,7 @@
 #indexing returns another string. It must be an integer less than the string length.
 #You can assign a string to a variable
 
-#You can't chnage strings but you can construct an altered copy:
+#You can't change strings but you can construct an altered copy:
 s = "Cat"
 s2 = "R" + s[1:] #s2 = Rat, creates a copy instead of changing original
 
