@@ -1,18 +1,20 @@
-from China import cook as China_cook
-from Senegal import cook as Senegal_cook
-import sys
-import pandas
-print("hello world")
+import random
+import china, austria
+from austria import cook as austria_cook
+from china import cook as china_cook
+from latam.argentina import cook as argentina_cook
+from latam.brazil import cook as brazil_cook
+from latam.mexico.yucantan import cook as yucatan_cook
 
-from China import greet
+def cook():
+    print("we are making paella")
 
-def greet():
-    print("hello from Segoland")
-
-China_cook()
-greet() #no need to use china as we imported it directly
-
-print(China_cook())
-print(Senegal_cook())
-
-
+print("a random number is:", random.randint(1, 10))
+china_cook()
+china.greet()
+austria_cook()
+austria.greet()
+cook()
+argentina_cook()
+brazil_cook()
+yucatan_cook()
